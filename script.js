@@ -4,6 +4,9 @@ const tabs = document.querySelectorAll('[data-target]');
 const tabContent = document.querySelectorAll('[data-content]');
 
 tabs.forEach(tab => {
+
+    console.log("hello world!")
+
     tab.addEventListener('click', () => {
 
         const target = document.querySelector(tab.dataset.target);
