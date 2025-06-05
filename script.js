@@ -8,7 +8,7 @@ tabs.forEach(tab => {
     console.log("hello world!")
 
 
-    console.log("hello world!")
+    console.log("hello world1")
 
     tab.addEventListener('click', () => {
 
